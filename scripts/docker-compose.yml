@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  pythonapp:
+    image: 585768149561.dkr.ecr.ap-south-1.amazonaws.com/demo:latest
+    ports:
+      - "8000:8000"
+    container_name: python-app-demo
